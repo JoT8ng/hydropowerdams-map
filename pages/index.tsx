@@ -40,6 +40,7 @@ export default function Home() {
         const geoJsonData = transformDataToGeoJson(data);
         setData(geoJsonData);
       } catch {
+        console.log("Fallback GeoJSON in use.")
         // Use fallback json data
         setData(dams as GeoJsonObject);
       }
