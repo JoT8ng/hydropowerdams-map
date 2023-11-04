@@ -58,7 +58,7 @@ export const mapTileLayers: TileLayers = {
   watersheds: {
     name: "watersheds",
     displayName: "Watersheds",
-    url: `https://api.mapbox.com/styles/v1/intlrivers/clm3q7poc00u001pe70spejuj/tiles/512/{z}/{x}/{y}?access_token=${process.env.MAPBOX_KEY}`,
+    url: `https://api.mapbox.com/styles/v1/intlrivers/clm3q7poc00u001pe70spejuj/tiles/512/{z}/{x}/{y}?access_token=${process.env.NEXT_PUBLIC_MAPBOX_KEY}`,
     attribution: "Data from HydroSHEDS",
     information: "Data from HydroSHEDS",
     toggleable: true,
@@ -66,7 +66,7 @@ export const mapTileLayers: TileLayers = {
   rivers: {
     name: "rivers",
     displayName: "Rivers",
-    url: `https://api.mapbox.com/styles/v1/intlrivers/clm4thx3700uj01pj8fjahweu/tiles/512/{z}/{x}/{y}?access_token=${process.env.MAPBOX_KEY}`,
+    url: `https://api.mapbox.com/styles/v1/intlrivers/clm4thx3700uj01pj8fjahweu/tiles/512/{z}/{x}/{y}?access_token=${process.env.NEXT_PUBLIC_MAPBOX_KEY}`,
     attribution: "Data from HydroSHEDS",
     information: "Data from HydroSHEDS",
     toggleable: true,
