@@ -4,7 +4,7 @@ _Web App Last update 31/10/2023_
 
 <img src="/assets/index.png" alt="Image of an interactive map showing the African continent and locations of dams.">
 
-The Sub-saharan African Hydropower Dams Map is an ongoing open source project, mapping prospective and existing dams across the region. It details financial, environmental and social consequences of the projects, and explores the impact of dam development projects by overlaying visual data from various resources.
+The Sub-Saharan African Hydropower Dams Map is an ongoing open source project, mapping prospective and existing dams across the region. It details financial, environmental and social consequences of the projects, and explores the impact of dam development projects by overlaying visual data from various resources.
 
 For questions or any suggestions please email contact@internationalrivers.org. 
 
