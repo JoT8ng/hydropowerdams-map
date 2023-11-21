@@ -15,7 +15,7 @@ const About = () => {
       </div>
       {isExpanded && (
         <p>
-          The Sub-saharan African Hydropower Dams Map is an ongoing project
+          The Sub-Saharan African Hydropower Dams Map is an ongoing project
           mapping prospective and existing dams across the region. It details
           financial, environmental and social consequences of the projects.
         </p>
