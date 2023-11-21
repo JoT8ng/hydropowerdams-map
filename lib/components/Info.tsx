@@ -23,7 +23,7 @@ const Info = () => {
           width="300"
         />
       </Link>
-      <h1>Hydropower Dams in Sub-saharan Africa</h1>
+      <h1>Hydropower Dams in Sub-Saharan Africa</h1>
       {setVisibleMobilePane && (
         <XMarkIcon
           className="absolute right-2 md:hidden w-6 h-6 cursor-pointer"
