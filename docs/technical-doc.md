@@ -6,9 +6,9 @@ The Hydropower Dams is an interactive map that leverages the open-source library
 ## Importing Data
 The variety of datasets used in the map means that the method of data hosting and importing changes based on its format. Datasets used on this map can be summarized into three formats:
 
-`GeoJSON` - a JSON object with coordinates that contains information and research on dams. This is a dynamic layer that will be updated by the International Rivers team.
-Raster layers - a layer that contains tiled imagery, like the biodiversity intactness layer.
-Vector layers - a layer that contains vector objects, like the watershed layer.
+- `GeoJSON` - a JSON object with coordinates that contains information and research on dams. This is a dynamic layer that will be updated by the International Rivers team.
+- Raster layers - a layer that contains tiled imagery, like the biodiversity intactness layer.
+- Vector layers - a layer that contains vector objects, like the watershed layer.
 
 The GeoJSON data is stored in a Google sheet. This sheet is shared publicly and accessed with [opensheet](https://github.com/benborgers/opensheet), a free API for parsing a Google Sheet as JSON by Ben Borgers. This JSON is imported as `GeoJSON` layers using the leaflet library. Additionally, you may filter which columns of the Google sheet are visible in the information panel inside `dataConfig.ts`.
 
